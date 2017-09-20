@@ -1,27 +1,132 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+/*
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+}
+*/
+/* header */
+
 header {
   height: 64px;
+}
+
+.topbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo {
+.brand {
+  display: flex;
+  align-items: center;
+  text-align: center;
   height: 32px;
   margin-left: 24px;
+}
+
+.brand-logo {
   display: flex;
   align-items: center;
 }
 
-header nav {
+nav ul {
+  display: flex;
   margin-right: 8px;
+  align-items: center;
 }
 
-ul li {
-  display: inline;
-  text-align: right;
-  padding-right: 18px;
+nav ul li {
+  padding-right: 16px;
 }
 
+/* section banner */
+
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  border: 2px solid black;
+}
+
+.banner-img {
+  border: 2px solid black;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.banner-img img {
+  max-height: auto;
+  max-width: 60%;
+  margin: 32px 24px;
+  border: 2px solid black;
+}
+
+.headline {
+  width: 40%;
+  border: 2px solid black;
+}
+
+.headline h6 {
+  text-align: center;
+  background-color: darkgray;
+  padding: 8px 0;
+  border: 2px solid black;
+}
+
+/* main information */
+
+.information {
+  display: flex;
+  align-items: center;
+}
+
+.column1 {
+  /*width: 60%;*/
+  margin: 32px 24px;
+}
+
+.column1-img img {
+  width: 60%;
+}
+
+.column1-info {
+  width: 60%;
+}
+
+.column2 {
+  /*width: 40%;*/
+  padding-left: 16px;
+}
+
+.row-img img {
+  width: 35%;
+  height: auto;
+}
+
+.row-info {
+  width: 65%;
+}
+
+/* section courses */
+
+.courses {
+  background-color: gray;
+}
+
+.courses_heading {
+  text-align: center;
+  padding: 32px 0;
+}
+
+/*
 .banner {
   background-color: lightgray;
   display: flex;
@@ -29,12 +134,13 @@ ul li {
 }
 
 .banner img {
-  /*width: 60%;*/
+  width: 60%;
   margin: 32px 24px;
 }
 
 .headline {
-
+  width: 40%;
+  margin-left: -200px;
 }
 
 .information {
@@ -44,14 +150,13 @@ ul li {
 }
 
 .column1 {
-  /*width: 60%;*/
+  width: 60%;
   margin-right: 24px;
-
 }
 
 .column2 {
-  width: 40%;
-  margin-left: 16px;
+  /*width: 40%;*/
+/*  margin-left: 16px;
 }
 
 .column2 img {
@@ -60,7 +165,7 @@ ul li {
 }
 /*
 .row1 {
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 
@@ -73,7 +178,7 @@ ul li {
   width: 65%;
 }
 */
-
+/*
 .courses_heading {
   text-align: center;
   padding-top: 32px;
@@ -130,3 +235,4 @@ footer {
   align-items: center;
   padding: 16px 24px;
 }
+*/
