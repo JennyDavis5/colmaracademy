@@ -14,7 +14,7 @@
         <span><strong>COLMAR</strong>ACADEMY</span>
       </div>
 
-      <div class="flex-container">
+      <div>
         <nav>
           <ul style="list-style-type: none">
           <li>On campus</li>
@@ -27,10 +27,8 @@
     </div>
   </header>
 
-  <section class="banner-container flex-container">
-    <div class="banner-img">
-      <img src="./resources/images/banner.jpg" alt="banner"/>
-    </div>
+  <section class="banner-container">
+      <img class="banner-img" src="./resources/images/banner.jpg" alt="banner"/>
     <div class="banner-headline">
       <h1>Learn something new everyday</h1>
       <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
@@ -39,11 +37,9 @@
   </section>
 
   <main>
-    <section class="information container flex-container">
+    <section class="information-container">
       <div class="column1">
-        <div class="column1-img">
-          <img src="./resources/images/information-main.jpg" alt="information-main"/>
-        </div>
+        <img class="column1-img" src="./resources/images/information-main.jpg" alt="information-main"/>
         <div class="column1-info">
           <h2>It doesn't hurt to keep practicing</h2>
           <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
@@ -53,95 +49,59 @@
 
       <div class="column2">
         <div class="row1">
-          <div class="row-img">
-            <img src="./resources/images/information-orientation.jpg" alt="information-orientation"/>
-          </div>
+          <img class="row-img" src="./resources/images/information-orientation.jpg" alt="information-orientation"/>
           <div class="row-info">
             <h3>Orientation date</h3>
             <p>Tue 10-11 & Wed 10/12: 8am-3pm</p>
-            <span>Read more</span>
+            <a href="https://jennydavis5.github.io/colmaracademy/">Read more</a>
           </div>
         </div>
         <div class="row2">
-          <div class="row-img">
-            <img src="./resources/images/information-campus.jpg" alt="information-campus"/>
-          </div>
+          <img class="row-img" src="./resources/images/information-campus.jpg" alt="information-campus"/>
           <div class="row-info">
             <h3>Our campus</h3>
             <p>Find which campus is close by you</p>
-            <span>Read more</span>
+            <a href="https://jennydavis5.github.io/colmaracademy/">Read more</a>
           </div>
         </div>
         <div class="row3">
-          <div class="row-img">
-            <img src="./resources/images/information-guest-lecture.jpg" alt="information-guest-lecture"/>
-          </div>
-        <div class="row-info">
+          <img class="row-img" src="./resources/images/information-guest-lecture.jpg" alt="information-guest-lecture"/>
+          <div class="row-info">
             <h3>Our guest lecture</h3>
-            <p>Join a keynot with Oliver Sack about music in medical treatment</p>
-            <span>Read more</span>
+            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+            <a href="https://jennydavis5.github.io/colmaracademy/">Read more</a>
           </div>
         </div>
       </div>
-
-  <!--    <div class="column3">
-        <div class="row1-info">
-          <div class="row-info">
-            <h3>Orientation date</h3>
-            <p>Tue 10-11 & Wed 10/12: 8am-3pm</p>
-            <span>Read more</span>
-          </div>
-        </div>
-        <div class="row2-info">
-          <div class="row-info">
-            <h3>Our campus</h3>
-            <p>Find which campus is close by you</p>
-            <span>Read more</span>
-          </div>
-        </div>
-        <div class="row3-info">
-          <div class="row-info">
-            <h3>Our guest lecture</h3>
-            <p>Join a keynot with Oliver Sack about music in medical treatment</p>
-            <span>Read more</span>
-          </div>
-        </div>
-      </div> -->
-   </section>
+    </section>
   </main>
 
-  <section class="courses container flex-container">
+  <section class="courses-container">
     <div class="courses_heading">
       <h2>Start learning</h2>
     </div>
 
     <div class="course_row1">
-      <div class="course">
-        <div class="course_img">
-          <img src="./resources/images/course-software.jpg" alt="course-software"/>
-        </div>
-        <span class="course_name">Software engineering</span>
+      <div class="course-software">
+        <img class="course_img" src="./resources/images/course-software.jpg" alt="course-software"/>
         <div class="course_info">
+          <span class="course_name"><strong>Software engineering</strong></span>
           <p>COURSES</p>
           <p>Web Development, Mobile Development, iOT, APIs</p>
         </div>
       </div>
-      <div class="course computer">
-        <div class="course_img">
-          <img src="./resources/images/course-computer-art.jpg" alt="course-computer-art"/>
-        </div>
-        <span class="course_name">Computer art</span>
+      <div class="course-computer">
+        <img class="course_img" src="./resources/images/course-computer-art.jpg" alt="course-computer-art"/>
         <div class="course_info">
+          <span class="course_name"><strong>Computer art</strong></span>
           <p>COURSES</p>
           <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
         </div>
       </div>
-      <div class="course design">
-        <div class="course_img">
-          <img src="./resources/images/course-design.jpg" alt="course-design"/>
-        </div>
-        <span class="course_name">Design</span>
+      <div class="course-design">
+        <img class="course_img" src="./resources/images/course-design.jpg" alt="course-design"/>
         <div class="course_info">
+          <span class="course_name"><strong>Design</strong></span>
           <p>COURSES</p>
           <p>User Experience Design, User Research, Visual Design</p>
         </div>
@@ -149,32 +109,26 @@
     </div>
 
     <div class="course_row2">
-      <div class="course data">
-        <div class="course_img">
-          <img src="./resources/images/course-data.jpg" alt="course-data"/>
-        </div>
-        <span class="course_name">Data</span>
+      <div class="course-data">
+        <img class="course_img" src="./resources/images/course-data.jpg" alt="course-data"/>
         <div class="course_info">
+          <span class="course_name"><strong>Data</strong></span>
           <p>COURSES</p>
           <p>Data Science, Big Data, SQL, Data Visualization</p>
         </div>
       </div>
-      <div class="course business">
-        <div class="course_img">
-          <img src="./resources/images/course-business.jpg" alt="course-business"/>
-        </div>
-        <span class="course_name">Business</span>
+      <div class="course-business">
+        <img class="course_img" src="./resources/images/course-business.jpg" alt="course-business"/>
         <div class="course_info">
+          <span class="course_name"><strong>Business</strong></span>
           <p>COURSES</p>
           <p>Product Development, Business Development, Startup</p>
         </div>
       </div>
-      <div class="course marketing">
-        <div class="course_img">
-          <img src="./resources/images/course-marketing.jpg" alt="course-marketing"/>
-        </div>
-        <span class="course_name">Marketing</span>
+      <div class="course-marketing">
+        <img class="course_img" src="./resources/images/course-marketing.jpg" alt="course-marketing"/>
         <div class="course_info">
+          <span class="course_name"><strong>Marketing</strong></span>
           <p>COURSES</p>
           <p>Analytics, Content Marketing, Mobile Marketing</p>
         </div>
@@ -182,34 +136,36 @@
     </div>
   </section>
 
-  <section class="thesis">
-    <div class="thesis_heading">
-      <h2>Thesis exhibit</h2>
-    </div>
+  <div class="thesis_heading">
+    <h2>Thesis exhibit</h2>
+  </div>
 
-    <div class="thesis_column1">
-      <div class="thesis_video">
-        <video src="./resources/videos/thesis.mp4"></video>
-        <h2>Reimagine urban</h2>
-        <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urma. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
-      </div>
-      <div class='thesis_column2'>
-        <div class="thesis_row1">
-          <div class="thesis_img">
-            <img src="./resources/images/thesis-fisma.jpg" alt="thesis-fisma"/>
-          </div>
-          <h3>Fisma: Design and Prototype</h3>
-          <p>Designer showcase of new prototype product</p>
-        </div>
-        <div class="thesis_row2">
-          <div class="thesis_img">
-            <img src="./resources/images/thesis-now-and-then.jpg" alt="thesis-now-and-then"/>
-          </div>
-          <h3>Now and then</h3>
-          <p>Research study about New York</p>
+  <section class="thesis-container">
+
+      <div class="thesis_column1">
+        <video class="thesis_video" src="./resources/videos/thesis.mp4"></video>
+        <div class="thesis-video-info">
+          <h2>Reimagine urban</h2>
+          <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urma. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
         </div>
       </div>
-    </div>
+        <div class='thesis_column2'>
+          <div class="thesis_row1">
+              <img class="thesis_img" src="./resources/images/thesis-fisma.jpg" alt="thesis-fisma"/>
+            <div class="thesis_info">
+              <h3>Fisma: Design and Prototype</h3>
+              <p>Designer showcase of new prototype product</p>
+            </div>
+          </div>
+          <div class="thesis_row2">
+            <img class="thesis_img" src="./resources/images/thesis-now-and-then.jpg" alt="thesis-now-and-then"/>
+            <div class="thesis_info">
+              <h3>Now and then</h3>
+              <p>Research study about New York</p>
+            </div>
+          </div>
+        </div>
+
   </section>
 
   <footer>
