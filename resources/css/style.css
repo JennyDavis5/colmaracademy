@@ -58,9 +58,14 @@ nav ul li {
 .banner-headline {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /*align-items: center;*/
+  text-align: left;
   height: auto;
   border: 2px solid black;
+}
+
+.banner-headline h1 {
+  font-size: 55px;
 }
 
 .banner-headline h6 {
@@ -151,21 +156,40 @@ nav ul li {
 .course_row1 {
   margin-bottom: 32px;
   border: 2px solid black;
+
 }
 
 .course_row2 {
-  padding-bottom: 32px;
+  margin-bottom: 32px;
   border: 2px solid black;
+
+}
+
+.course-software {
+
 }
 
 .course-computer {
-  padding: 0 32px;
+  margin: 0 32px;
   border: 2px solid black;
+
+}
+
+.course-design {
+
+}
+
+.course-data {
+
 }
 
 .course-business {
-  padding: 0 32px;
+  margin: 0 32px;
   border: 2px solid black;
+}
+
+.course-marketing {
+
 }
 
 .course_img {
