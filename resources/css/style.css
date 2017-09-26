@@ -77,12 +77,13 @@ nav ul li {
   font-size: 30px;
 }
 
-.banner-headline h6 {
+.banner-headline a {
   text-align: center;
   background-color: #474747;
   padding: 8px 0;
   font-size: 20px;
   color: white;
+  text-decoration: none;
 }
 
 /* main information */
@@ -153,15 +154,16 @@ nav ul li {
   display: flex;
   justify-content: space-between;
   margin: 0 72px;
+  width: 32%;
 }
 
 .course_row1 {
   margin-bottom: 32px;
-  height: 25rem;
+/*  height: 25rem;*/
 }
 
 .course_row2 {
-  height: 25rem;
+/*  height: 25rem;*/
 }
 
 .course-software {
