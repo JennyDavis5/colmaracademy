@@ -384,6 +384,12 @@ footer {
   .courses_heading {
     text-align: center;
     margin-bottom: 16px;
+    font-size: 20px;
+  }
+
+  .course_item {
+    display: flex;
+    flex-direction: column;
   }
 
   .course_img {
@@ -404,11 +410,13 @@ footer {
     display: flex;
     text-align: center;
     margin: 32px 0 16px 0;
+    font-size: 20px;
   }
 
   .thesis-container {
     width: 100%;
     height: 100%;
+    display: flex;
   }
 
   .thesis_video {
@@ -416,6 +424,7 @@ footer {
     display: flex;
     margin-bottom: 24px;
     border: 4px solid lightgray;
+    width: 100%;
   }
 
   .thesis-video-info {
@@ -428,6 +437,7 @@ footer {
 
   footer {
     margin: 16px;
+    font-size: 10px;
   }
 
   footer nav {
