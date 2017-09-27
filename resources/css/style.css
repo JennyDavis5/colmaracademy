@@ -329,10 +329,11 @@ footer {
   }
 
   .banner-headling h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .banner-headline h3 {
+    font-size: 16px;
     padding: 32px 0 24px 0;
   }
 
@@ -343,6 +344,7 @@ footer {
   .information-container {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
   .column1 {
@@ -353,6 +355,16 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 16px 16px 32px 16px;
+    border: none;
+  }
+
+  .row1, .row2, .row3 {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .row-img {
+    width: 100%;
   }
 
   .row-info {
