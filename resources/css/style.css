@@ -328,12 +328,12 @@ footer {
     margin: 32px 16px;
   }
 
-  .banner-headling h1 {
-    font-size: 16px;
+  .banner-headinge h1 {
+    font-size: 18px;
   }
 
   .banner-headline h3 {
-    font-size: 10px;
+    font-size: 16px;
     padding: 32px 0 24px 0;
   }
 
@@ -361,6 +361,7 @@ footer {
   .row1, .row2, .row3 {
     flex-direction: column;
     display: flex;
+    width: 100%;
   }
 
   .row-img {
@@ -369,6 +370,8 @@ footer {
 
   .row-info {
     margin: 16px 0 64px 16px;
+    display: flex;
+    border: none;
   }
 
   .courses-container {
@@ -390,6 +393,7 @@ footer {
   .course_item {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
   .course_img {
@@ -409,6 +413,7 @@ footer {
   .thesis_heading {
     display: flex;
     text-align: center;
+    align-items: center;
     margin: 32px 0 16px 0;
     font-size: 20px;
   }
@@ -437,7 +442,7 @@ footer {
 
   footer {
     margin: 16px;
-    font-size: 10px;
+    font-size: 16px;
   }
 
   footer nav {
