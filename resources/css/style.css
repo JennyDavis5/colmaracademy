@@ -1,21 +1,18 @@
-
+/*
 * {
   outline: 1px solid red;
 }
-
+*/
 html {
   font-size: 18px;
   font-family: Helvetica;
-}
-
-header {
-  height: 64px;
 }
 
 .topbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 64px;
 }
 
 .brand {
@@ -94,27 +91,36 @@ nav ul li {
 
 .column1 {
   margin: 32px 24px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .column1-img {
-  width: 60%;
-}
-
-.column1-info {
-  width: 60%;
+  width: auto;
+  height: 25.5rem;
 }
 
 .column1-info h2 {
-  padding: 32px 0 24px 0;
+  margin: 32px 0 24px 0;
+  font-size: 50px;
 }
 
 .column1-info p {
-  padding-bottom: 45px;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.column1 span {
+  padding-top: 12px;
+  font-size: 12px;
 }
 
 .column2 {
-  /*width: 40%;*/
+  width: 40%;
   margin: 32px 0;
+  border-left: 4px solid lightgray;
 }
 
 .row-img {
@@ -128,6 +134,12 @@ nav ul li {
 }
 .row-info {
   width: 65%;
+  font-size: 24px;
+}
+
+.row-info a {
+  color: blue;
+  text-decoration: none;
 }
 
 .row1 {
@@ -148,48 +160,32 @@ nav ul li {
 .courses_heading {
   text-align: center;
   padding: 32px 0;
+  font-size: 40px;
 }
 
 .course_row1, .course_row2 {
   display: flex;
   justify-content: space-between;
   margin: 0 72px;
-  width: 32%;
+  width: auto;
+}
+
+.course_item {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .course_row1 {
   margin-bottom: 32px;
-/*  height: 25rem;*/
 }
 
-.course_row2 {
-/*  height: 25rem;*/
-}
-
-.course-software {
-
-}
-
-.course-computer {
+.course_item.course-computer {
   margin: 0 32px;
-
 }
 
-.course-design {
-
-}
-
-.course-data {
-
-}
-
-.course-business {
+.course_item.course-business {
   margin: 0 32px;
-
-}
-
-.course-marketing {
-
 }
 
 .course_img {
@@ -205,6 +201,7 @@ nav ul li {
   padding-top: 16px;
   padding-left: 16px;
   padding-bottom: 24px;
+  height: 9rem;
 }
 
 .course_info p {
@@ -220,19 +217,23 @@ nav ul li {
 .thesis_heading {
   text-align: center;
   padding: 32px 0;
+  font-size: 40px;
 }
 
 .thesis_column1 {
   margin-left: 24px;
   margin-right: 24px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
 }
 
 .thesis_video {
-  width: 60%;
+  width: auto;
+  height: 30rem;
 }
 
 .thesis-video-info {
-  width: 60%;
   padding-bottom: 32px;
 }
 
@@ -240,8 +241,13 @@ nav ul li {
   padding-bottom: 8px;
 }
 
-.thesis_column2 {
+.thesis-video-info p {
+  font-style: italic;
+  font-size: 25px;
+}
 
+.thesis_column2 {
+  width: 40%;
 }
 
 .thesis_row1, .thesis_row2 {
@@ -263,6 +269,7 @@ nav ul li {
 div.thesis_info {
   margin-left: 16px;
   width: 65%;
+  font-size: 24px;
 }
 
 footer {
