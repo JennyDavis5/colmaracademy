@@ -329,7 +329,7 @@ footer {
     margin: 32px 16px;
   }
 
-  .banner-headinge h1 {
+  .banner-headine h1 {
     font-size: 18px;
   }
 
@@ -372,7 +372,8 @@ footer {
   .row-info {
     margin: 16px 0 64px 16px;
     display: flex;
-    border-bottom: none;
+    flex-direction: column;
+    width: 100%;
   }
 
   .courses-container {
