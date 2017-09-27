@@ -287,15 +287,18 @@ footer {
 
 /* responsive design */
 /* mobiles */
-@media only screen and (max-width:470px) {
+@media only screen and (min-width:470px) {
   html {
     width: 100%;
     height: 100%;
   }
   .topbar-container {
     height: 64px;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;*/
+    display: inline-flex;
+    justify-content: space-between;
+  /*  flex-direction: column;*/
+    flex-direction: row;
     width: 100%;
   }
 
@@ -350,6 +353,8 @@ footer {
     background-color: white;
     margin: 32px 16px;
     margin-bottom: -8px;
+    width: 100%;
+    height: 100%;
   }
 
   .courses_heading {
@@ -377,10 +382,16 @@ footer {
     margin: 32px 0 16px 0;
   }
 
+  .thesis-container {
+    width: 100%;
+    height: 100%;
+  }
+
   .thesis_video {
     align-items: center;
     display: flex;
     margin-bottom: 24px;
+    border: 4px solid lightgray;
   }
 
   .thesis-video-info {
