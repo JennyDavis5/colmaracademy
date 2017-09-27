@@ -97,7 +97,6 @@ nav ul li {
   width: 60%;
   display: flex;
   flex-direction: column;
-
 }
 
 .column1-img {
@@ -123,7 +122,7 @@ nav ul li {
 .column2 {
   width: 40%;
   margin: 32px 0;
-  border-left: 4px solid lightgray;
+  border-left: 4px solid #4f1377;
 }
 
 .row-img {
@@ -141,16 +140,16 @@ nav ul li {
 }
 
 .row-info a {
-  color: blue;
+  color: #e8a812;
   text-decoration: none;
 }
 
 .row1 {
-  border-bottom: 4px solid lightgray;
+  border-bottom: 4px solid #4f1377;
 }
 
 .row3 {
-  background-color: lightgray;
+  background-color: #4f1377;
 }
 
 /* section courses */
@@ -215,12 +214,14 @@ nav ul li {
 
 .thesis-container {
   display: flex;
+  background-color: #e8a812;
 }
 
 .thesis_heading {
   text-align: center;
   padding: 32px 0;
   font-size: 40px;
+  background-color: #e8a812;
 }
 
 .thesis_column1 {
@@ -287,7 +288,7 @@ footer {
 
 /* responsive design */
 /* mobiles */
-@media only screen and (max-width: 850px), (orientation: portrait)  {
+@media only screen and (min-width: 320px) and (max-width: 850px), (orientation: portrait), {
   html {
     width: 100%;
     height: 100%;
@@ -371,7 +372,7 @@ footer {
   .row-info {
     margin: 16px 0 64px 16px;
     display: flex;
-    border: none;
+    border-bottom: none;
   }
 
   .courses-container {
