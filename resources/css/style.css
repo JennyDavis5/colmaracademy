@@ -331,11 +331,11 @@ footer {
   }
 
   .banner-headline h1 {
-    font-size: 18px;
+    font-size: 25px;
   }
 
   .banner-headline h3 {
-    font-size: 16px;
+    font-size: 20px;
     padding: 32px 0 24px 0;
   }
 
@@ -352,7 +352,7 @@ footer {
   .column2 {
     display: flex;
     flex-direction: column;
-  /*  margin: 16px 16px 32px 16px;*/
+    margin: 16px 16px 32px 16px;
     border: none;
     width: 100%;
   }
@@ -365,11 +365,11 @@ footer {
 
   .row-img {
     width: auto; /*85%;*/
-    height: 25rem; /*auto;*/
+    height: 20rem; /*auto;*/
   }
 
   .row-info {
-  /*  margin: 16px 0 64px 16px;*/
+    margin: 16px 0 64px 16px;
     display: flex;
     flex-direction: column;
     width: 100%; /*85%;*/
