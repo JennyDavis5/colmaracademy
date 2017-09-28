@@ -303,10 +303,6 @@ footer {
     font-size: 1.2rem;
   }
 
-  .brand-logo {
-    display: none;
-  }
-
   .brand-name {
     display: none;
   }
@@ -368,8 +364,8 @@ footer {
   }
 
   .row-img {
-    width: auto; /*85%;*/
-    height: 20rem; /*auto;*/
+    width: /*auto;*/ 85%;
+    height: 15rem; /*auto;*/
   }
 
   .row-info {
@@ -377,7 +373,10 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%; /*85%;*/
+  }
 
+  .row3 {
+    background-color: none;
   }
 
   .courses-container {
