@@ -303,6 +303,10 @@ footer {
     font-size: 1.2rem;
   }
 
+  .brand-logo {
+    display: none;
+  }
+
   .brand-name {
     display: none;
   }
@@ -331,11 +335,11 @@ footer {
   }
 
   .banner-headline h1 {
-    font-size: 25px;
+    font-size: 40px;
   }
 
   .banner-headline h3 {
-    font-size: 20px;
+    font-size: 22px;
     padding: 32px 0 24px 0;
   }
 
