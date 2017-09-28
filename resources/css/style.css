@@ -1,8 +1,8 @@
-/*
+
 * {
   outline: 1px solid red;
 }
-*/
+
 html {
   font-size: 18px;
   font-family: Helvetica;
@@ -289,7 +289,7 @@ footer {
 
 /* responsive design */
 /* mobiles */
-@media only screen and (min-width: 320px) and (max-width: 850px), (orientation: portrait) {
+@media only screen and (min-width: 320px) and (max-width: 425px), (orientation: portrait) {
   html {
     width: 100%;
     height: 100%;
@@ -323,8 +323,7 @@ footer {
   }
 
   .mobile_nav li {
-    padding-right: 100px;
-    margin-left: -28px;
+    padding-right: 60px;
   }
 
   .banner-container {
@@ -375,47 +374,75 @@ footer {
   }
 
   .row-img {
-    width: 90%;
-    height: 18rem;
+    width: auto;
+    height: 16rem;
+    object-fit: cover;
+    object-position: center;
   }
 
   .row-info {
     margin: 16px 0 64px 16px;
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: auto;
   }
 
   .courses-container {
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
     background-color: white;
-    /*margin: 32px 16px;*/
-    margin-bottom: -8px;
+    /*margin: 0 16px 32px 0;*/
+    text-align: center;
     width: 100%;
-  /*  height: 100%;*/
   }
 
   .courses_heading {
-    text-align: center;
-    margin-bottom: 16px;
-    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 32px 0 16px 0;
+    font-size: 30px;
+    background-color: white;
+  }
+
+  .course_row1, .course_row2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin: 0 0;
   }
 
   .course_item {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    margin-bottom: 8px;
+    width: auto;
+  }
+
+  .course_item.course-computer, .course_item.course-business {
+    margin: 0;
+  }
+
+  .course_item.course-marketing {
+    border-bottom: 4px solid #4f1377;
   }
 
   .course_img {
     display: none;
   }
 
+  .course_info {
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 25px;
+  }
+
   .course_name {
     background-color: lightgray;
     padding: 16px 0 24px 16px;
-    margin-bottom: 8px;
+    width: auto;
+    display: flex;
   }
 
   .course_info p {
@@ -454,8 +481,6 @@ footer {
 
   footer {
     display: flex;
-    /*width: 100%;*/
-    margin: 16px;
     font-size: 16px;
   }
 
