@@ -288,7 +288,7 @@ footer {
 
 /* responsive design */
 /* mobiles */
-@media only screen and (min-width: 320px) and (max-width: 850px), (orientation: portrait), {
+@media only screen and (min-width: 320px) and (max-width: 850px), (orientation: portrait) {
   html {
     width: 100%;
     height: 100%;
@@ -314,11 +314,7 @@ footer {
   nav .mobile_nav {
     display: flex;
     align-items: center;
-    justify-content: center;
-  }
-
-  .mobile_nav li {
-    list-style: none;
+    justify-content: space-between;
   }
 
   .banner-container {
