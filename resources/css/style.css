@@ -297,7 +297,7 @@ footer {
   .topbar-container {
     height: 64px;
     display: flex;
-    justify-content: normal;
+    justify-content: center;
     align-items: center;
     width: 100%;
     font-size: 1.2rem;
@@ -323,7 +323,10 @@ footer {
 
   .mobile_nav li {
     display: flex;
-  /*  padding-right: 60px;*/
+  }
+
+  .mobile_img1, .mobile_img2, .mobile_img3 {
+    padding-right: 90px;
   }
 
   .banner-container {
