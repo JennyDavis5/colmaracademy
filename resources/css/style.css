@@ -303,6 +303,10 @@ footer {
     font-size: 1.2rem;
   }
 
+  .brand {
+    display: none;
+  }
+
   .brand-logo {
     display: none;
   }
@@ -317,16 +321,24 @@ footer {
 
   nav .mobile_nav {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    width: auto;
     padding: 0;
   }
 
   .mobile_nav li {
     display: flex;
+    height: 40px;
+    width: auto;
+    padding: 0;
+  }
+
+  .mobile_nav img {
+    height: 40px;
   }
 
   .mobile_img1, .mobile_img2, .mobile_img3 {
-    padding-right: 90px;
+    margin-right: 50px;
   }
 
   .banner-container {
