@@ -318,12 +318,12 @@ footer {
   nav .mobile_nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 0;
+    padding: 0;
   }
 
   .mobile_nav li {
-    padding-right: 60px;
+    display: flex;
+  /*  padding-right: 60px;*/
   }
 
   .banner-container {
@@ -421,6 +421,7 @@ footer {
     flex-direction: column;
     margin-bottom: 8px;
     height: 69px;
+    width: 100%;
   }
 
   .course_item.course-computer, .course_item.course-business {
@@ -438,11 +439,12 @@ footer {
   .course_info {
     font-size: 25px;
     text-align: left;
+    background-color: lightgray;
+    margin: 0 16px;
   }
 
   .course_name {
-    background-color: lightgray;
-    padding: 16px 0 24px 16px;
+    padding: 16px 0 24px 0;
     width: auto;
   }
 
