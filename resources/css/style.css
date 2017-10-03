@@ -210,12 +210,13 @@ nav ul li {
   height: 12rem;
 }
 
-.course_info p {
-  padding: 8px 0;
-}
-
 .course_name {
   font-size: 26px;
+}
+
+.course_info p {
+  padding: 8px 0;
+  font-size: 24px;
 }
 
 /* section thesis */
@@ -246,7 +247,7 @@ nav ul li {
 }
 
 .thesis-video-info {
-  padding-bottom: 32px;
+  padding: 0 16px 32px 32px;
 }
 
 .thesis-video-info h2 {
